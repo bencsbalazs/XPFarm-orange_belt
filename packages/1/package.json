@@ -1,0 +1,20 @@
+{
+  "peerDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "name": "daily_kata",
+  "version": "1.0.0",
+  "description": "Here I create the daily katas for XPfarm yellow belt",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Balazs Bencs",
+  "license": "ISC",
+  "type": "module"
+}

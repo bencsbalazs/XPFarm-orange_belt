@@ -1,0 +1,16 @@
+{
+  "name": "colored_triangles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "peerDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
