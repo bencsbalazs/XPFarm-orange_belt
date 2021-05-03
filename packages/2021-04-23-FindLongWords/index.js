@@ -1,3 +1,5 @@
 export const longWords = (sentence, n) => {
-    return (typeof(sentence) != "string") ? false : true
+    if (typeof(sentence) != "string") {
+        return false
+    }
 }
