@@ -1,4 +1,4 @@
-export const longWords = (sentence, n) {
+export const longWords = (sentence, n) => {
     var longer = [];
     var sent  = sentence.split(' ');
     
