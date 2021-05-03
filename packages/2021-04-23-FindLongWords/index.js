@@ -6,5 +6,10 @@ export const longWords = (sentence, n) => {
     if (n<1) {
         return false
     }
+    sentence.split(" ").forEach((word)=>{
+        if (word.length >= n) {
+            filteredWords.push(word)
+        }
+    })
     return filteredWords
 }

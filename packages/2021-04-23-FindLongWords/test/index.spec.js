@@ -19,7 +19,7 @@ describe("Filter long words", ()=>{
         })
 
         it("Should return with the 'sentence' word", ()=>{
-            expect(longWords("This is a long sentence",5)).to.equal(["sentence"])
+            expect(longWords("This is a long sentence",5)).to.be.an('array').that.includes('sentence')
         })
     })
     
