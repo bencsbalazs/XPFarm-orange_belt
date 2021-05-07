@@ -1,3 +1,3 @@
-export const reverseBits = () => {
+export const reverseBits = (num) => {
     
-}
+};

@@ -1,6 +1,6 @@
 export function triangles(userString) {
     if (userString == null) {
-        return ""
+        return "";
     }
 
     if (userString.length == 1) {

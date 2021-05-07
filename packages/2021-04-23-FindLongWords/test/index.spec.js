@@ -5,22 +5,22 @@ describe("Filter long words", ()=>{
     
     describe("Check input parameters", ()=>{
         it("Check the sentence is a string",()=>{
-            expect(longWords(2, 1)).to.be.false
-        })
+            expect(longWords(2, 1)).equal(false);
+        });
     
         it("Check the input number is not 0",()=>{
-            expect(longWords("This is a long sentence.", 0)).to.be.false
-        })
-    })
+            expect(longWords("This is a long sentence.", 0)).equal(false);
+        });
+    });
 
     describe("Check the output", ()=>{
         it("Should return with an array", ()=>{
-            expect(longWords("This is a long sentence",1)).to.be.an("array")
-        })
+            expect(longWords("This is a long sentence",1)).to.be.an("array");
+        });
 
         it("Should return with the 'sentence' word", ()=>{
-            expect(longWords("This is a long sentence",5)).to.be.an('array').that.includes('sentence')
-        })
-    })
+            expect(longWords("This is a long sentence",5)).to.be.an('array').that.includes('sentence');
+        });
+    });
     
-})
+});

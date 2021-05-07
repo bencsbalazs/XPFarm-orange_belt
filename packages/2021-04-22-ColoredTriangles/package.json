@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "nyc": {
+    "all": true
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/**/*.spec.js",
+    "coverage": "nyc --reporter=text npm test"
   },
   "author": "",
   "type": "module",
