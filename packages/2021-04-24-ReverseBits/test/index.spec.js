@@ -6,5 +6,9 @@ describe("Reverse binary",()=>{
         it("Should return false if input is not a number ", () => {
             expect(reverseBits("123")).equal(false);
         });
+
+        it("Should return false if input is negative", () => {
+            expect(reverseBits(-123)).equal(false);
+        });
     });
 });
