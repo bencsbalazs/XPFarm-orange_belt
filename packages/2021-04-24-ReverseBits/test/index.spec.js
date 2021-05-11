@@ -11,4 +11,10 @@ describe("Reverse binary",()=>{
             expect(reverseBits(-123)).equal(false);
         });
     });
+
+    describe("check the output", ()=>{
+        it("should be a number", ()=>{
+            expect(reverseBits(123)).equal(111)
+        })
+    })
 });

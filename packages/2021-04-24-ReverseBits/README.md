@@ -16,4 +16,4 @@ You can assume that the number is not negative.
 > I need to know the reversed binary as decimal
 
 - Test 1: The output is a Number
-- The output is not Negative
+- The output is what I expected
