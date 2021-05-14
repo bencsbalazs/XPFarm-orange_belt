@@ -1,0 +1,24 @@
+{
+  "name": "2021-05-14",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Balazs Bencs <balazs.bencs@ibm.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:xpfarm/BalazsBencs-DailyKatas-OrangeBelt.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
