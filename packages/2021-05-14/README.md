@@ -10,9 +10,11 @@ You can assume all values in the array are numbers.
 > As a user, I need to know wheather all element of the given array are numbers.
 
 - UAT1: The array contains only numbers?
+- UAT2: Is it an array?
 
 ## User story two
 
 > I have to know wheather all elements are smaller than the limit.
 
-- UAT2: The limit is a number?
+- UAT1: The limit is a number?
+- UAT2: Is all number smaller or equal with the limit?
