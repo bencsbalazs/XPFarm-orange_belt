@@ -1,3 +1,3 @@
 export function limit(array, limit) {
-    // TODO
+    return !array.some(isNaN);
 }

@@ -3,6 +3,6 @@ import { limit } from "../lib/index.js";
 
 describe('Smaller than', () => {
     it("Should return false if there are not only numbers", ()=>{
-        expect(limit()).equal(false);
+        expect(limit([1,"a","b"])).equal(false);
     });
 });
