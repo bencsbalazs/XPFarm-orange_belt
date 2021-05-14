@@ -2,5 +2,8 @@ export function limit(array, limit) {
     if (!Array.isArray(array)) {
         return false;
     }
-    return !array.some(isNaN);
+    if (array.some(isNaN)){
+        return false;
+    }
+    
 }
