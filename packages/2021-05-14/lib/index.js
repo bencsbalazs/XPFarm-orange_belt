@@ -5,5 +5,8 @@ export function limit(array, limit) {
     if (array.some(isNaN)){
         return false;
     }
+    if (!Number.isInteger(limit)){
+        return "Error";
+    }
     
 }
