@@ -1,8 +1,6 @@
 export function largestPairSumInArray(array) {
-    if (!Array.isArray(array)) {
+    if (!Array.isArray(array) || array.some(isNaN)) {
         return false;
     }
-    if (array.some(isNaN)){
-        return false;
-    }
+    
 }
