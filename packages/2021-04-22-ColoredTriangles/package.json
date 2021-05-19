@@ -7,8 +7,7 @@
     "all": true
   },
   "scripts": {
-    "test": "mocha test/**/*.spec.js",
-    "coverage": "nyc --reporter=text npm test"
+    "test": "nyc mocha test/**/*.spec.js"
   },
   "author": "",
   "type": "module",
