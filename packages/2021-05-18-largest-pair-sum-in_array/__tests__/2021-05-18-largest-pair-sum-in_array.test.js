@@ -1,5 +1,5 @@
 import {expect} from "chai";
-import {largestPairSumInArray} from "../lib/2021-05-18-largest-pair-sum-in_array.js";
+import {largestPairSumInArray, sorting} from "../lib/2021-05-18-largest-pair-sum-in_array.js";
 
 describe('2021-05-18-largest-pair-sum-in_array', () => {
     describe("User story 1", ()=>{
@@ -8,7 +8,13 @@ describe('2021-05-18-largest-pair-sum-in_array', () => {
         });
 
         it("return false if array contains not only numbers", ()=>{
-            expect(largestPairSumInArray([1,2,"a"])).equal(false);
+            expect(largestPairSumInArray([1,2,"a"])).to.eql(false);
+        });
+    });
+
+    describe("User story 2", ()=>{
+        it("returns with a sorted array", ()=>{
+            expect(sorting([1,3,2])).to.eql([3,2,1]);
         });
     });
     

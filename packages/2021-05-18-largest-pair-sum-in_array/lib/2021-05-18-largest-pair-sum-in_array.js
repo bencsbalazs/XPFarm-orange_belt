@@ -4,3 +4,7 @@ export function largestPairSumInArray(array) {
     }
     
 }
+
+export const sorting = (arr) => {
+    return arr.sort().reverse();
+};
