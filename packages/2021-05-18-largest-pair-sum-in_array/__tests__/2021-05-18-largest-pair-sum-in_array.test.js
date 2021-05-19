@@ -16,6 +16,10 @@ describe('2021-05-18-largest-pair-sum-in_array', () => {
         it("returns with a sorted array", ()=>{
             expect(sorting([1,3,2])).to.eql([3,2,1]);
         });
+
+        it("turns with the correct sum", ()=>{
+            expect(largestPairSumInArray([1,3,2])).to.equal(5);
+        });
     });
     
 });
