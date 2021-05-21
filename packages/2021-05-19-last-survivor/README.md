@@ -24,9 +24,9 @@
 
 ## Solution
 
-- User story 1:
-  - User test 1:
-  - User test 2:
-- User story 2:
-  - User test 1:
-  - User test 2:
+- User story 1: As a user, I need to know wheather the input variables are correct
+  - User test 1: First user variable is a string
+  - User test 2: Second variable is an array
+- User story 2: As a user, I need to know what will be the remaining letter
+  - User test 1: The array is sorter than the string
+  - User test 2: Remaining letter is correct
