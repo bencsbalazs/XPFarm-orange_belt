@@ -6,5 +6,8 @@ describe('2021-05-20-grow-the-popuation', () => {
         it("Should return false if target smaller than current", ()=>{
             expect(nbYear(5,1,1,4)).to.equal(false);
         })
+        it("should be false when the percentage is not a number", ()=>{
+            expect(nbYear(2,"3",1,5)).to.equal(false);
+        })
     })
 });
