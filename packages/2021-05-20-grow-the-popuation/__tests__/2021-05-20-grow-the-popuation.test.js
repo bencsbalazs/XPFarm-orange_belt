@@ -10,4 +10,10 @@ describe('2021-05-20-grow-the-popuation', () => {
             expect(nbYear(2,"3",1,5)).to.equal(false);
         })
     })
+
+    describe("User story 2", ()=>{
+        it("Should be false when incoming people is not number",()=>{
+            expect(nbYear(1,2,"1",20)).to.equal(false)
+        })
+    })
 });
