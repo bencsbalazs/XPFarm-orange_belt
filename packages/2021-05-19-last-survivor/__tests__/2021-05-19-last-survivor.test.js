@@ -11,7 +11,7 @@ describe('2021-05-19-last-survivor', () => {
         });
     });
 
-    describe('User story 1', ()=>{
+    describe('User story 2', ()=>{
         it('Should be false when coords input is longer than str', ()=>{
             expect(lastSurvivor("String",[1,2,3]).length).greaterThan(1)
         });
