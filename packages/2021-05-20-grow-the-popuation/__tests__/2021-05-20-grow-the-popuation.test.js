@@ -15,5 +15,9 @@ describe('2021-05-20-grow-the-popuation', () => {
         it("Should be false when incoming people is not number",()=>{
             expect(nbYear(1,2,"1",20)).to.equal(false)
         })
+
+        it("Should return the correct number", ()=>{
+            expect(nbYear(1000,2,50,1200)).to.equal(3);
+        })
     })
 });
