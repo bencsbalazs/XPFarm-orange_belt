@@ -14,5 +14,8 @@ describe('2021-05-21-build-a-train', () => {
         it("Should be false if return is not a number", ()=>{
             expect(typeof(buildATrain("A_"))).is.equal("number");
         })
+        it("Should be false if return is lower than 7", ()=>{
+            expect(typeof(buildATrain("A_"))).is.equal("number");
+        })
     })
 });
