@@ -1,7 +1,8 @@
-'use strict';
-
-module.exports = 20210521BuildATrain;
-
-function 20210521BuildATrain() {
-    // TODO
+export function buildATrain(train) {
+    
+    const METALS = {"A": 15, "B": 10, "C": 7, "D": 8, "_": 5};
+    if (!Object.keys(METALS).includes(train.split('')[0]))
+        return false;
+    
+    
 }
