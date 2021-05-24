@@ -9,4 +9,10 @@ describe('2021-05-21-build-a-train', () => {
             expect(buildATrain('A')).to.equal(false);
         })
     })
+
+    describe("User story 2", ()=>{
+        it("Should be false if return is not a number", ()=>{
+            expect(typeof(buildATrain("A_"))).is.equal("number");
+        })
+    })
 });
