@@ -5,5 +5,8 @@ describe('2021-05-21-build-a-train', () => {
         it('Should return false if String starts with correct letter', ()=>{
             expect(buildATrain('J___')).to.equal(false);
         })
+        it('Should return false if train does not have coach', ()=>{
+            expect(buildATrain('A')).to.equal(false);
+        })
     })
 });
