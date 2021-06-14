@@ -12,8 +12,8 @@ describe('Testing 2021-06-14-findTheSquares', () => {
   });
 
   describe('User story 2', ()=>{
-    it.skip('', ()=>{
-
+    it('Should return false if returning value is not a string', ()=>{
+      expect(typeof(findTheSquares(9))).equal("string");
     });
     it.skip('', ()=>{
 
