@@ -7,7 +7,7 @@ describe('Testing 2021-06-14-findTheSquares', () => {
       expect(findTheSquares(1000002)).equal(false)
     });
     it('It should be false if input is not odd', ()=>{
-      expect(findTheSquares(1)).equal(false);
+      expect(findTheSquares(2)).equal(false);
     });
   });
 
@@ -15,8 +15,8 @@ describe('Testing 2021-06-14-findTheSquares', () => {
     it('Should return false if returning value is not a string', ()=>{
       expect(typeof(findTheSquares(9))).equal("string");
     });
-    it.skip('', ()=>{
-
+    it('Should return 9-4', ()=>{
+      expect(findTheSquares(5)).equal('9-4');
     });
-  })
+  });
 });
