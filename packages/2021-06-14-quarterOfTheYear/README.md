@@ -13,5 +13,5 @@
 
 > As a user, I have to know the result.
 
-- User test 2/1: True if the result is between 1-4 ❌
+- User test 2/1: True if the result is between 1-4 ✅
 - User test 2/2: False if the result is not number. ❌
