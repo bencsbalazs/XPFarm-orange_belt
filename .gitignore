@@ -1,5 +1,5 @@
+.nyc_output
+coverage
+lerna-debug.log
 node_modules
 package-lock.json
-lerna-debug.log
-
-.nyc_output

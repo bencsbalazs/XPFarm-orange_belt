@@ -1,4 +1,6 @@
 # Balazs Bencs' daily katas for XPFarm orange belt
 
-### Run test
+## Run test
+
 - lerna run test
+- jest --coverage

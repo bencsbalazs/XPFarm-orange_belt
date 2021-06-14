@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { Imeverywhere } from "../lib/2021-06-08-imEverywhere.js";
 
 describe('2021-06-08-imEverywhere', () => {
-    
+
     describe("As a user I need to know if it is the correct word", ()=>{
         it("The input should be a string.", ()=>{
             expect(Imeverywhere(1)).to.equal("Invalid word");
