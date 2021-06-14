@@ -7,7 +7,7 @@
 > As a user, I have to know the input is integer and is between 1-12
 
 - User test 1/1: Should be false if given value is not integer ✅
-- User test 1/2: Should be false when given number is not between 1-12 ❌
+- User test 1/2: Should be false when given number is not between 1-12 🧑‍💼
 
 ## User story 2
 
