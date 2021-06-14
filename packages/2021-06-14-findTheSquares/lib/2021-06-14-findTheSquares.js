@@ -1,5 +1,7 @@
 const findTheSquares = (n)=>{
-  return (n % 2 == 0);
+  if (n % 2 != 0 || n>1000000) {
+    return false;
+  }
 };
 
 module.exports = { findTheSquares };
