@@ -6,6 +6,9 @@ describe('Testing 2021-06-14-quarterOfTheYear', () => {
     it('Should be false if the parameter is not integer', ()=>{
       expect(quarterOfTheYear("not number")).equal(false);
     });
+    it('Should be false if the parameter is greater than 12', ()=>{
+      expect(quarterOfTheYear(13)).equal(false);
+    });
   });
 
   describe('User story 2', ()=>{
