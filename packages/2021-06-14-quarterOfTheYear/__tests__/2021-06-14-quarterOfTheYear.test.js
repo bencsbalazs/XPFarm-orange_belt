@@ -15,8 +15,8 @@ describe("Testing 2021-06-14-quarterOfTheYear", () => {
     it("Accepted if the result is between 1-4", () => {
       expect(quarterOfTheYear(2)).lessThan(4);
     });
-    it("Accepted if the result is 2", () => {
-      expect(quarterOfTheYear(2)).equals(2);
+    it("Accepted if the result is 1", () => {
+      expect(quarterOfTheYear(2)).equal(1);
     });
   });
 });
