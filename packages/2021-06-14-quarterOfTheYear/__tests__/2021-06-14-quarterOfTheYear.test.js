@@ -12,6 +12,8 @@ describe('Testing 2021-06-14-quarterOfTheYear', () => {
   });
 
   describe('User story 2', ()=>{
-
+    it("Accepted if the result is between 1-4", ()=>{
+      expect(quarterOfTheYear(2)).lessThan(4)
+    })
   });
 });
