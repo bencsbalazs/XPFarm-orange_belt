@@ -7,11 +7,11 @@
 > As a user, I have to know the input is integer and is between 1-12
 
 - User test 1/1: Should be false if given value is not integer ✅
-- User test 1/2: Should be false when given number is not between 1-12 🧑‍💼
+- User test 1/2: Should be false when given number is not between 1-12 ✅
 
 ## User story 2
 
 > As a user, I have to know the result.
 
-- User test 2/1: False if the result i greater than 4 ❌
+- User test 2/1: True if the result is between 1-4 ❌
 - User test 2/2: False if the result is not number. ❌
