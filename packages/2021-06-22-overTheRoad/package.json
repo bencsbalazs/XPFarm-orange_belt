@@ -1,0 +1,23 @@
+{
+  "name": "2021-06-22-overTheRoad",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Balazs Bencs <balazs.bencs@ibm.com>",
+  "license": "ISC",
+  "main": "lib/2021-06-22-overTheRoad.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:xpfarm/BalazsBencs-DailyKatas-OrangeBelt.git"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
